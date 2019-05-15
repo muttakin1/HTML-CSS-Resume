@@ -1,1 +1,30 @@
-/* Your CSS styles go here */
+body {
+    border: 2px solid rgb(255, 0, 0);
+    font-family: Lucida Console;
+    background-color: rgb(253, 227, 239);
+    padding: 8px;
+
+  }
+  #header  {
+    
+    color: rgb(243, 46, 46);
+  }
+   #Education {
+    color: rgb(17, 0, 0);
+   }
+   
+   table,td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+      border-spacing: 5px;
+  }
+  td,th{
+      padding: 15 px;
+  }
+  #flex {
+      display: flex;
+     }
+ 
+  /* Your CSS styles go here */

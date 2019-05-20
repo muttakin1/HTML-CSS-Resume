@@ -47,5 +47,14 @@ body {
    #right {
        border: 100 px;
      }
- 
+    
+    #message{
+      display: flex;
+      margin-top: 10px;
+    }
+    #btn{ 
+      margin-top:20px;
+      margin-left:50px;
+    }
+    
   /* Your CSS styles go here */

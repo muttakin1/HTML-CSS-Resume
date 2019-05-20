@@ -1,3 +1,7 @@
+#main{
+  padding: 20px;
+  
+}
 body {
     border: 5px solid rgb(255, 0, 0);
     font-family: Lucida Console;
@@ -19,6 +23,7 @@ body {
    #Education {
      
     color: rgb(17, 0, 0);
+    
    }
    h2{
     letter-spacing: 10px;
@@ -27,6 +32,7 @@ body {
    table,td, th{
     border: 1px solid black;
     border-collapse: collapse;
+    
   }
   table{
       border-spacing: 5px;
@@ -36,6 +42,10 @@ body {
   }
   #flex {
       display: flex;
+      
+     }
+   #right {
+       border: 100 px;
      }
  
   /* Your CSS styles go here */

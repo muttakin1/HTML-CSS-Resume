@@ -16,7 +16,14 @@ body {
     padding-top: 8px;
    padding-bottom: 1px;
 
+  
+  }
+  .email{
+    width:50%;
     
+  }
+  #email{
+    padding-left: 10px;
   }
   #header  {
     letter-spacing: 5px;
@@ -66,7 +73,9 @@ body {
     #form{ 
       width:50%;
       
+      
     }
+
 }
 
     @media(max-width: 700px){
@@ -138,7 +147,12 @@ body {
             width:50%;
            
           }
-
+          .email{
+            width:50%;
+          }
+          #email{
+            padding-left: 10px;
+          }
 
     }
   /* Your CSS styles go here */

@@ -77,6 +77,83 @@ body {
     }
 
 }
+@media(max-width: 950px){
+  #main{
+    padding: 20px;
+    
+  }
+  body {
+      border: 5px solid rgb(255, 0, 0);
+      font-family: Lucida Console;
+      background-color: rgb(253, 227, 239);
+      padding: 8px;
+      letter-spacing: 1.5px;
+      font-size:80%;
+  
+    }
+    #img{
+      padding-top: 8px;
+     padding-bottom: 1px;
+  
+      
+    }
+    #header  {
+      letter-spacing: 5px;
+      color: rgb(243, 46, 46);
+    }
+     #Education {
+       
+      color: rgb(17, 0, 0);
+      
+     }
+     h2{
+      letter-spacing: 10px;
+     }
+     
+     table,td, th{
+      border: 1px solid black;
+      border-collapse: collapse;
+      
+    }
+    table{
+       
+        border-spacing: 5px;
+    }
+    td,th{
+        padding: 15 px;
+    }
+    table,td,th{
+      width:50%;
+      font-size:80%
+    }
+    #flex {
+        display: flex;
+        
+       }
+     #right {
+         border: 100 px;
+       }
+      
+      #message{
+        display: flex;
+        margin-top: 10px;
+      }
+      #btn{ 
+        margin-top:20px;
+        margin-left:50px;
+      }
+      #form{ 
+        width:50%;
+       
+      }
+      .email{
+        width:50%;
+      }
+      #email{
+        padding-left: 10px;
+      }
+
+}
 
     @media(max-width: 700px){
       #main{
@@ -89,7 +166,7 @@ body {
           background-color: rgb(253, 227, 239);
           padding: 8px;
           letter-spacing: 1.5px;
-          font-size:70%;
+          font-size:60%;
       
         }
         #img{
@@ -124,8 +201,8 @@ body {
             padding: 15 px;
         }
         table,td,th{
-          width:50%;
-          font-size:80%
+          width:30%;
+          font-size:70%
         }
         #flex {
             display: flex;
@@ -144,15 +221,17 @@ body {
             margin-left:50px;
           }
           #form{ 
-            width:50%;
+            width:30%;
            
           }
           .email{
-            width:50%;
+            width:30%;
           }
           #email{
             padding-left: 10px;
           }
-
+          
+          
     }
+    
   /* Your CSS styles go here */
